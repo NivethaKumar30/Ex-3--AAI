@@ -33,13 +33,11 @@
     Step 7:Print Approximate Probabilities:<br>
     <ul><li>Print the calculated approximate probabilities for the specified query_variable.</li></ul>
 
-```
+
 ## Program:
-```
 
-```
 #importing required libraries
-
+```
 from pgmpy.models import BayesianNetwork
 from pgmpy.factors.discrete import TabularCPD
 from pgmpy.sampling import GibbsSampling
